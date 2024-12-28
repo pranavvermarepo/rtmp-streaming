@@ -12,7 +12,7 @@ This project processes video streams using FFmpeg to generate HLS outputs for Vi
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/video-processor-service.git
+   git clone https://github.com/pranavvermarepo/rtmp-streaming.git
    ```
 2. Navigate to the project directory:
    ```bash
