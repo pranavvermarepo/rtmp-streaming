@@ -1,0 +1,448 @@
+2024-12-27 14:11:08,353 - INFO - StreamProcessor initialized.
+2024-12-27 14:11:42,133 - INFO - Starting stream processing for video1.mp4. Output path: output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464
+2024-12-27 14:11:46,619 - INFO - [720] Line read from FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+2024-12-27 14:11:46,619 - INFO - [1080] Line read from FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+2024-12-27 14:11:46,620 - INFO - [480] Line read from FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+2024-12-27 14:11:46,620 - INFO - [720] Line read from FFmpeg stderr: built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+2024-12-27 14:11:46,620 - INFO - [1080] Line read from FFmpeg stderr: built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+2024-12-27 14:11:46,620 - INFO - [480] Line read from FFmpeg stderr: built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+2024-12-27 14:11:46,620 - INFO - [720] Line read from FFmpeg stderr: configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+2024-12-27 14:11:46,620 - INFO - [1080] Line read from FFmpeg stderr: configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+2024-12-27 14:11:46,620 - INFO - [480] Line read from FFmpeg stderr: configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+2024-12-27 14:11:46,800 - INFO - [720] Line read from FFmpeg stderr: libavutil      58. 29.100 / 58. 29.100
+2024-12-27 14:11:46,800 - INFO - [480] Line read from FFmpeg stderr: libavutil      58. 29.100 / 58. 29.100
+2024-12-27 14:11:46,800 - INFO - [1080] Line read from FFmpeg stderr: libavutil      58. 29.100 / 58. 29.100
+2024-12-27 14:11:46,800 - INFO - [720] Line read from FFmpeg stderr: libavcodec     60. 31.102 / 60. 31.102
+2024-12-27 14:11:46,800 - INFO - [480] Line read from FFmpeg stderr: libavcodec     60. 31.102 / 60. 31.102
+2024-12-27 14:11:46,801 - INFO - [1080] Line read from FFmpeg stderr: libavcodec     60. 31.102 / 60. 31.102
+2024-12-27 14:11:46,801 - INFO - [720] Line read from FFmpeg stderr: libavformat    60. 16.100 / 60. 16.100
+2024-12-27 14:11:46,801 - INFO - [480] Line read from FFmpeg stderr: libavformat    60. 16.100 / 60. 16.100
+2024-12-27 14:11:46,801 - INFO - [1080] Line read from FFmpeg stderr: libavformat    60. 16.100 / 60. 16.100
+2024-12-27 14:11:46,801 - INFO - [720] Line read from FFmpeg stderr: libavdevice    60.  3.100 / 60.  3.100
+2024-12-27 14:11:46,801 - INFO - [480] Line read from FFmpeg stderr: libavdevice    60.  3.100 / 60.  3.100
+2024-12-27 14:11:46,801 - INFO - [1080] Line read from FFmpeg stderr: libavdevice    60.  3.100 / 60.  3.100
+2024-12-27 14:11:46,801 - INFO - [720] Line read from FFmpeg stderr: libavfilter     9. 12.100 /  9. 12.100
+2024-12-27 14:11:46,801 - INFO - [480] Line read from FFmpeg stderr: libavfilter     9. 12.100 /  9. 12.100
+2024-12-27 14:11:46,801 - INFO - [1080] Line read from FFmpeg stderr: libavfilter     9. 12.100 /  9. 12.100
+2024-12-27 14:11:46,801 - INFO - [720] Line read from FFmpeg stderr: libswscale      7.  5.100 /  7.  5.100
+2024-12-27 14:11:46,801 - INFO - [480] Line read from FFmpeg stderr: libswscale      7.  5.100 /  7.  5.100
+2024-12-27 14:11:46,801 - INFO - [1080] Line read from FFmpeg stderr: libswscale      7.  5.100 /  7.  5.100
+2024-12-27 14:11:46,801 - INFO - [720] Line read from FFmpeg stderr: libswresample   4. 12.100 /  4. 12.100
+2024-12-27 14:11:46,802 - INFO - [480] Line read from FFmpeg stderr: libswresample   4. 12.100 /  4. 12.100
+2024-12-27 14:11:46,802 - INFO - [1080] Line read from FFmpeg stderr: libswresample   4. 12.100 /  4. 12.100
+2024-12-27 14:11:46,802 - INFO - [720] Line read from FFmpeg stderr: libpostproc    57.  3.100 / 57.  3.100
+2024-12-27 14:11:46,802 - INFO - [480] Line read from FFmpeg stderr: libpostproc    57.  3.100 / 57.  3.100
+2024-12-27 14:11:46,802 - INFO - [1080] Line read from FFmpeg stderr: libpostproc    57.  3.100 / 57.  3.100
+2024-12-27 14:11:47,384 - INFO - [720] Line read from FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video1.mp4':
+2024-12-27 14:11:47,384 - INFO - [720] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,384 - INFO - [720] Line read from FFmpeg stderr: major_brand     : isom
+2024-12-27 14:11:47,384 - INFO - [720] Line read from FFmpeg stderr: minor_version   : 512
+2024-12-27 14:11:47,384 - INFO - [720] Line read from FFmpeg stderr: compatible_brands: isomiso2avc1mp41
+2024-12-27 14:11:47,384 - INFO - [720] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: encoder         : Lavf53.24.2
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: Duration: 00:01:02.31, start: 0.000000, bitrate: 1347 kb/s
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 959 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: handler_name    : VideoHandler
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,385 - INFO - [720] Line read from FFmpeg stderr: Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, 5.1, fltp, 383 kb/s (default)
+2024-12-27 14:11:47,386 - INFO - [720] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,386 - INFO - [720] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,386 - INFO - [720] Line read from FFmpeg stderr: handler_name    : SoundHandler
+2024-12-27 14:11:47,386 - INFO - [720] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,392 - INFO - [1080] Line read from FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video1.mp4':
+2024-12-27 14:11:47,392 - INFO - [480] Line read from FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video1.mp4':
+2024-12-27 14:11:47,392 - INFO - [1080] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,392 - INFO - [480] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,393 - INFO - [1080] Line read from FFmpeg stderr: major_brand     : isom
+2024-12-27 14:11:47,393 - INFO - [480] Line read from FFmpeg stderr: major_brand     : isom
+2024-12-27 14:11:47,393 - INFO - [1080] Line read from FFmpeg stderr: minor_version   : 512
+2024-12-27 14:11:47,393 - INFO - [480] Line read from FFmpeg stderr: minor_version   : 512
+2024-12-27 14:11:47,393 - INFO - [1080] Line read from FFmpeg stderr: compatible_brands: isomiso2avc1mp41
+2024-12-27 14:11:47,393 - INFO - [480] Line read from FFmpeg stderr: compatible_brands: isomiso2avc1mp41
+2024-12-27 14:11:47,393 - INFO - [1080] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,393 - INFO - [480] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,393 - INFO - [1080] Line read from FFmpeg stderr: encoder         : Lavf53.24.2
+2024-12-27 14:11:47,393 - INFO - [480] Line read from FFmpeg stderr: encoder         : Lavf53.24.2
+2024-12-27 14:11:47,393 - INFO - [1080] Line read from FFmpeg stderr: Duration: 00:01:02.31, start: 0.000000, bitrate: 1347 kb/s
+2024-12-27 14:11:47,393 - INFO - [480] Line read from FFmpeg stderr: Duration: 00:01:02.31, start: 0.000000, bitrate: 1347 kb/s
+2024-12-27 14:11:47,393 - INFO - [1080] Line read from FFmpeg stderr: Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 959 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+2024-12-27 14:11:47,393 - INFO - [480] Line read from FFmpeg stderr: Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 959 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+2024-12-27 14:11:47,394 - INFO - [1080] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,394 - INFO - [1080] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,394 - INFO - [1080] Line read from FFmpeg stderr: handler_name    : VideoHandler
+2024-12-27 14:11:47,394 - INFO - [480] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,394 - INFO - [1080] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,394 - INFO - [480] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,394 - INFO - [1080] Line read from FFmpeg stderr: Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, 5.1, fltp, 383 kb/s (default)
+2024-12-27 14:11:47,394 - INFO - [480] Line read from FFmpeg stderr: handler_name    : VideoHandler
+2024-12-27 14:11:47,394 - INFO - [1080] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,394 - INFO - [480] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,395 - INFO - [1080] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,395 - INFO - [480] Line read from FFmpeg stderr: Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, 5.1, fltp, 383 kb/s (default)
+2024-12-27 14:11:47,395 - INFO - [1080] Line read from FFmpeg stderr: handler_name    : SoundHandler
+2024-12-27 14:11:47,395 - INFO - [480] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,395 - INFO - [1080] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,395 - INFO - [480] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,395 - INFO - [480] Line read from FFmpeg stderr: handler_name    : SoundHandler
+2024-12-27 14:11:47,395 - INFO - [480] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,510 - INFO - [720] Line read from FFmpeg stderr: Stream mapping:
+2024-12-27 14:11:47,510 - INFO - [720] Line read from FFmpeg stderr: Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+2024-12-27 14:11:47,510 - INFO - [720] Line read from FFmpeg stderr: Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2024-12-27 14:11:47,510 - INFO - [720] Line read from FFmpeg stderr: Press [q] to stop, [?] for help
+2024-12-27 14:11:47,511 - INFO - [480] Line read from FFmpeg stderr: Stream mapping:
+2024-12-27 14:11:47,512 - INFO - [1080] Line read from FFmpeg stderr: Stream mapping:
+2024-12-27 14:11:47,512 - INFO - [480] Line read from FFmpeg stderr: Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+2024-12-27 14:11:47,512 - INFO - [1080] Line read from FFmpeg stderr: Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+2024-12-27 14:11:47,512 - INFO - [480] Line read from FFmpeg stderr: Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2024-12-27 14:11:47,512 - INFO - [1080] Line read from FFmpeg stderr: Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+2024-12-27 14:11:47,512 - INFO - [480] Line read from FFmpeg stderr: Press [q] to stop, [?] for help
+2024-12-27 14:11:47,512 - INFO - [1080] Line read from FFmpeg stderr: Press [q] to stop, [?] for help
+2024-12-27 14:11:47,632 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] using SAR=1/1
+2024-12-27 14:11:47,632 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] using SAR=1/1
+2024-12-27 14:11:47,632 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] using SAR=1280/1281
+2024-12-27 14:11:47,633 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2024-12-27 14:11:47,633 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2024-12-27 14:11:47,633 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] profile High, level 3.0, 4:2:0, 8-bit
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: Output #0, hls, to 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8':
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: major_brand     : isom
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: minor_version   : 512
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: compatible_brands: isomiso2avc1mp41
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: encoder         : Lavf60.16.100
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: Stream #0:0(und): Video: h264, yuv420p(tv, progressive), 854x480 [SAR 1280:1281 DAR 16:9], q=2-31, 25 fps, 90k tbn (default)
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: handler_name    : VideoHandler
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: encoder         : Lavc60.31.102 libx264
+2024-12-27 14:11:47,644 - INFO - [480] Line read from FFmpeg stderr: Side data:
+2024-12-27 14:11:47,645 - INFO - [480] Line read from FFmpeg stderr: cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+2024-12-27 14:11:47,645 - INFO - [480] Line read from FFmpeg stderr: Stream #0:1(und): Audio: aac (LC), 48000 Hz, 5.1, fltp, 341 kb/s (default)
+2024-12-27 14:11:47,645 - INFO - [480] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,645 - INFO - [480] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,645 - INFO - [480] Line read from FFmpeg stderr: handler_name    : SoundHandler
+2024-12-27 14:11:47,645 - INFO - [480] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,645 - INFO - [480] Line read from FFmpeg stderr: encoder         : Lavc60.31.102 aac
+2024-12-27 14:11:47,651 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] profile High, level 3.1, 4:2:0, 8-bit
+2024-12-27 14:11:47,651 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+2024-12-27 14:11:47,651 - INFO - [720] Line read from FFmpeg stderr: Output #0, hls, to 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8':
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: major_brand     : isom
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: minor_version   : 512
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: compatible_brands: isomiso2avc1mp41
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: encoder         : Lavf60.16.100
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: Stream #0:0(und): Video: h264, yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 90k tbn (default)
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: handler_name    : VideoHandler
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: encoder         : Lavc60.31.102 libx264
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: Side data:
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: Stream #0:1(und): Audio: aac (LC), 48000 Hz, 5.1, fltp, 341 kb/s (default)
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: handler_name    : SoundHandler
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,652 - INFO - [720] Line read from FFmpeg stderr: encoder         : Lavc60.31.102 aac
+2024-12-27 14:11:47,654 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] profile High, level 4.0, 4:2:0, 8-bit
+2024-12-27 14:11:47,654 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+2024-12-27 14:11:47,654 - INFO - [1080] Line read from FFmpeg stderr: Output #0, hls, to 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8':
+2024-12-27 14:11:47,654 - INFO - [1080] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,654 - INFO - [1080] Line read from FFmpeg stderr: major_brand     : isom
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: minor_version   : 512
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: compatible_brands: isomiso2avc1mp41
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: encoder         : Lavf60.16.100
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: Stream #0:0(und): Video: h264, yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 90k tbn (default)
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: handler_name    : VideoHandler
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: encoder         : Lavc60.31.102 libx264
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: Side data:
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: Stream #0:1(und): Audio: aac (LC), 48000 Hz, 5.1, fltp, 341 kb/s (default)
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: Metadata:
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: creation_time   : 1970-01-01T00:00:00.000000Z
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: handler_name    : SoundHandler
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: vendor_id       : [0][0][0][0]
+2024-12-27 14:11:47,655 - INFO - [1080] Line read from FFmpeg stderr: encoder         : Lavc60.31.102 aac
+2024-12-27 14:11:48,069 - INFO - [720] Line read from FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.27 bitrate=N/A speed=4.82x
+2024-12-27 14:11:48,074 - INFO - [480] Line read from FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.27 bitrate=N/A speed=4.93x
+2024-12-27 14:11:48,576 - INFO - [480] Line read from FFmpeg stderr: frame=   10 fps=0.0 q=28.0 size=N/A time=00:00:02.92 bitrate=N/A speed=5.25x
+2024-12-27 14:11:48,581 - INFO - [720] Line read from FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:02.30 bitrate=N/A speed=4.13x
+2024-12-27 14:11:48,620 - INFO - [1080] Line read from FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.27 bitrate=N/A speed= 4.7x
+2024-12-27 14:11:49,082 - INFO - [480] Line read from FFmpeg stderr: frame=   50 fps= 47 q=28.0 size=N/A time=00:00:04.50 bitrate=N/A speed=4.25x
+2024-12-27 14:11:49,131 - INFO - [1080] Line read from FFmpeg stderr: frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:02.11 bitrate=N/A speed=1.92x
+2024-12-27 14:11:49,159 - INFO - [720] Line read from FFmpeg stderr: frame=   25 fps= 24 q=28.0 size=N/A time=00:00:03.52 bitrate=N/A speed=3.31x
+2024-12-27 14:11:49,583 - INFO - [480] Line read from FFmpeg stderr: frame=   80 fps= 51 q=28.0 size=N/A time=00:00:05.73 bitrate=N/A speed=3.67x
+2024-12-27 14:11:49,726 - INFO - [720] Line read from FFmpeg stderr: frame=   48 fps= 29 q=28.0 size=N/A time=00:00:04.41 bitrate=N/A speed=2.69x
+2024-12-27 14:11:49,751 - INFO - [1080] Line read from FFmpeg stderr: frame=    3 fps=1.9 q=28.0 size=N/A time=00:00:02.64 bitrate=N/A speed=1.65x
+2024-12-27 14:11:50,087 - INFO - [480] Line read from FFmpeg stderr: frame=  113 fps= 55 q=28.0 size=N/A time=00:00:07.04 bitrate=N/A speed=3.41x
+2024-12-27 14:11:50,232 - INFO - [720] Line read from FFmpeg stderr: frame=   69 fps= 31 q=28.0 size=N/A time=00:00:05.31 bitrate=N/A speed= 2.4x
+2024-12-27 14:11:50,276 - INFO - [1080] Line read from FFmpeg stderr: frame=   14 fps=6.3 q=28.0 size=N/A time=00:00:03.07 bitrate=N/A speed=1.38x
+2024-12-27 14:11:50,590 - INFO - [480] Line read from FFmpeg stderr: frame=  144 fps= 56 q=28.0 size=N/A time=00:00:08.25 bitrate=N/A speed=3.21x
+2024-12-27 14:11:50,733 - INFO - [720] Line read from FFmpeg stderr: frame=   96 fps= 35 q=28.0 size=N/A time=00:00:06.35 bitrate=N/A speed=2.34x
+2024-12-27 14:11:50,767 - INFO - [1080] Line read from FFmpeg stderr: frame=   26 fps=9.5 q=28.0 size=N/A time=00:00:03.54 bitrate=N/A speed=1.29x
+2024-12-27 14:11:51,067 - INFO - [480] Line read from FFmpeg stderr: frame=  178 fps= 58 q=28.0 size=N/A time=00:00:09.62 bitrate=N/A speed=3.13x
+2024-12-27 14:11:51,068 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p0.ts' for writing
+2024-12-27 14:11:51,069 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:11:51,241 - INFO - [720] Line read from FFmpeg stderr: frame=  129 fps= 40 q=28.0 size=N/A time=00:00:07.65 bitrate=N/A speed=2.38x
+2024-12-27 14:11:51,276 - INFO - [1080] Line read from FFmpeg stderr: frame=   36 fps= 11 q=28.0 size=N/A time=00:00:03.94 bitrate=N/A speed=1.21x
+2024-12-27 14:11:51,596 - INFO - [480] Line read from FFmpeg stderr: frame=  214 fps= 60 q=28.0 size=N/A time=00:00:11.07 bitrate=N/A speed= 3.1x
+2024-12-27 14:11:51,738 - INFO - [720] Line read from FFmpeg stderr: frame=  157 fps= 42 q=28.0 size=N/A time=00:00:08.81 bitrate=N/A speed=2.37x
+2024-12-27 14:11:51,805 - INFO - [1080] Line read from FFmpeg stderr: frame=   47 fps= 12 q=28.0 size=N/A time=00:00:04.39 bitrate=N/A speed=1.17x
+2024-12-27 14:11:52,099 - INFO - [480] Line read from FFmpeg stderr: frame=  252 fps= 62 q=28.0 size=N/A time=00:00:12.58 bitrate=N/A speed=3.08x
+2024-12-27 14:11:52,102 - INFO - [720] Line read from FFmpeg stderr: frame=  189 fps= 45 q=28.0 size=N/A time=00:00:10.06 bitrate=N/A speed=2.38x
+2024-12-27 14:11:52,102 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p0.ts' for writing
+2024-12-27 14:11:52,106 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:11:52,499 - INFO - [1080] Line read from FFmpeg stderr: frame=   58 fps= 14 q=28.0 size=N/A time=00:00:04.82 bitrate=N/A speed=1.12x
+2024-12-27 14:11:52,608 - INFO - [480] Line read from FFmpeg stderr: frame=  292 fps= 64 q=28.0 size=N/A time=00:00:14.18 bitrate=N/A speed=3.09x
+2024-12-27 14:11:52,746 - INFO - [720] Line read from FFmpeg stderr: frame=  222 fps= 47 q=28.0 size=N/A time=00:00:11.41 bitrate=N/A speed=2.42x
+2024-12-27 14:11:52,823 - INFO - [1080] Line read from FFmpeg stderr: frame=   72 fps= 15 q=28.0 size=N/A time=00:00:05.39 bitrate=N/A speed=1.12x
+2024-12-27 14:11:53,115 - INFO - [480] Line read from FFmpeg stderr: frame=  325 fps= 64 q=28.0 size=N/A time=00:00:15.50 bitrate=N/A speed=3.04x
+2024-12-27 14:11:53,252 - INFO - [720] Line read from FFmpeg stderr: frame=  266 fps= 51 q=28.0 size=N/A time=00:00:13.16 bitrate=N/A speed=2.52x
+2024-12-27 14:11:53,335 - INFO - [1080] Line read from FFmpeg stderr: frame=   83 fps= 16 q=28.0 size=N/A time=00:00:05.84 bitrate=N/A speed= 1.1x
+2024-12-27 14:11:53,510 - INFO - [480] Line read from FFmpeg stderr: frame=  368 fps= 66 q=28.0 size=N/A time=00:00:17.21 bitrate=N/A speed=3.07x
+2024-12-27 14:11:53,510 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p1.ts' for writing
+2024-12-27 14:11:53,510 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:11:53,755 - INFO - [720] Line read from FFmpeg stderr: frame=  302 fps= 53 q=28.0 size=N/A time=00:00:14.59 bitrate=N/A speed=2.54x
+2024-12-27 14:11:53,866 - INFO - [1080] Line read from FFmpeg stderr: frame=   97 fps= 17 q=28.0 size=N/A time=00:00:06.37 bitrate=N/A speed= 1.1x
+2024-12-27 14:11:54,119 - INFO - [480] Line read from FFmpeg stderr: frame=  412 fps= 68 q=28.0 size=N/A time=00:00:19.00 bitrate=N/A speed=3.12x
+2024-12-27 14:11:54,279 - INFO - [720] Line read from FFmpeg stderr: frame=  339 fps= 54 q=28.0 size=N/A time=00:00:16.06 bitrate=N/A speed=2.57x
+2024-12-27 14:11:54,413 - INFO - [1080] Line read from FFmpeg stderr: frame=  110 fps= 17 q=28.0 size=N/A time=00:00:06.91 bitrate=N/A speed=1.09x
+2024-12-27 14:11:54,624 - INFO - [480] Line read from FFmpeg stderr: frame=  448 fps= 68 q=28.0 size=N/A time=00:00:20.41 bitrate=N/A speed=3.09x
+2024-12-27 14:11:54,810 - INFO - [720] Line read from FFmpeg stderr: frame=  375 fps= 55 q=28.0 size=N/A time=00:00:17.51 bitrate=N/A speed=2.59x
+2024-12-27 14:11:54,810 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p1.ts' for writing
+2024-12-27 14:11:54,810 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:11:54,973 - INFO - [1080] Line read from FFmpeg stderr: frame=  124 fps= 18 q=28.0 size=N/A time=00:00:07.46 bitrate=N/A speed=1.08x
+2024-12-27 14:11:55,120 - INFO - [480] Line read from FFmpeg stderr: frame=  480 fps= 68 q=28.0 size=N/A time=00:00:21.71 bitrate=N/A speed=3.06x
+2024-12-27 14:11:55,314 - INFO - [720] Line read from FFmpeg stderr: frame=  403 fps= 55 q=28.0 size=N/A time=00:00:18.62 bitrate=N/A speed=2.55x
+2024-12-27 14:11:55,474 - INFO - [1080] Line read from FFmpeg stderr: frame=  135 fps= 18 q=28.0 size=N/A time=00:00:07.91 bitrate=N/A speed=1.06x
+2024-12-27 14:11:55,626 - INFO - [480] Line read from FFmpeg stderr: frame=  517 fps= 68 q=28.0 size=N/A time=00:00:23.21 bitrate=N/A speed=3.05x
+2024-12-27 14:11:55,817 - INFO - [720] Line read from FFmpeg stderr: frame=  435 fps= 56 q=28.0 size=N/A time=00:00:19.92 bitrate=N/A speed=2.56x
+2024-12-27 14:11:56,019 - INFO - [1080] Line read from FFmpeg stderr: frame=  148 fps= 19 q=28.0 size=N/A time=00:00:08.42 bitrate=N/A speed=1.06x
+2024-12-27 14:11:56,123 - INFO - [480] Line read from FFmpeg stderr: frame=  554 fps= 68 q=28.0 size=N/A time=00:00:24.68 bitrate=N/A speed=3.05x
+2024-12-27 14:11:56,343 - INFO - [720] Line read from FFmpeg stderr: frame=  460 fps= 55 q=28.0 size=N/A time=00:00:20.90 bitrate=N/A speed=2.52x
+2024-12-27 14:11:56,539 - INFO - [1080] Line read from FFmpeg stderr: frame=  162 fps= 19 q=28.0 size=N/A time=00:00:08.98 bitrate=N/A speed=1.06x
+2024-12-27 14:11:56,650 - INFO - [480] Line read from FFmpeg stderr: frame=  592 fps= 69 q=28.0 size=N/A time=00:00:26.17 bitrate=N/A speed=3.04x
+2024-12-27 14:11:56,854 - INFO - [720] Line read from FFmpeg stderr: frame=  483 fps= 55 q=28.0 size=N/A time=00:00:21.86 bitrate=N/A speed=2.48x
+2024-12-27 14:11:56,982 - INFO - [480] Line read from FFmpeg stderr: frame=  626 fps= 69 q=28.0 size=N/A time=00:00:27.54 bitrate=N/A speed=3.02x
+2024-12-27 14:11:56,982 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p2.ts' for writing
+2024-12-27 14:11:56,982 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:11:57,040 - INFO - [1080] Line read from FFmpeg stderr: frame=  174 fps= 19 q=28.0 size=N/A time=00:00:09.47 bitrate=N/A speed=1.05x
+2024-12-27 14:11:57,372 - INFO - [720] Line read from FFmpeg stderr: frame=  510 fps= 55 q=28.0 size=N/A time=00:00:22.91 bitrate=N/A speed=2.45x
+2024-12-27 14:11:57,544 - INFO - [1080] Line read from FFmpeg stderr: frame=  187 fps= 20 q=28.0 size=N/A time=00:00:10.00 bitrate=N/A speed=1.05x
+2024-12-27 14:11:57,675 - INFO - [480] Line read from FFmpeg stderr: frame=  656 fps= 68 q=28.0 size=N/A time=00:00:28.73 bitrate=N/A speed=2.98x
+2024-12-27 14:11:57,866 - INFO - [1080] Line read from FFmpeg stderr: frame=  196 fps= 20 q=28.0 size=N/A time=00:00:10.38 bitrate=N/A speed=1.04x
+2024-12-27 14:11:57,866 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p0.ts' for writing
+2024-12-27 14:11:57,873 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:11:57,876 - INFO - [720] Line read from FFmpeg stderr: frame=  530 fps= 54 q=28.0 size=N/A time=00:00:23.70 bitrate=N/A speed= 2.4x
+2024-12-27 14:11:58,188 - INFO - [480] Line read from FFmpeg stderr: frame=  683 fps= 67 q=28.0 size=N/A time=00:00:29.82 bitrate=N/A speed=2.93x
+2024-12-27 14:11:58,408 - INFO - [720] Line read from FFmpeg stderr: frame=  566 fps= 55 q=28.0 size=N/A time=00:00:25.15 bitrate=N/A speed=2.43x
+2024-12-27 14:11:58,573 - INFO - [1080] Line read from FFmpeg stderr: frame=  217 fps= 21 q=28.0 size=N/A time=00:00:11.17 bitrate=N/A speed=1.06x
+2024-12-27 14:11:58,698 - INFO - [480] Line read from FFmpeg stderr: frame=  718 fps= 67 q=28.0 size=N/A time=00:00:31.21 bitrate=N/A speed=2.93x
+2024-12-27 14:11:58,912 - INFO - [720] Line read from FFmpeg stderr: frame=  608 fps= 56 q=28.0 size=N/A time=00:00:26.85 bitrate=N/A speed=2.47x
+2024-12-27 14:11:59,101 - INFO - [720] Line read from FFmpeg stderr: frame=  633 fps= 56 q=28.0 size=N/A time=00:00:27.84 bitrate=N/A speed=2.44x
+2024-12-27 14:11:59,101 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p2.ts' for writing
+2024-12-27 14:11:59,101 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:11:59,110 - INFO - [1080] Line read from FFmpeg stderr: frame=  242 fps= 22 q=28.0 size=N/A time=00:00:12.18 bitrate=N/A speed= 1.1x
+2024-12-27 14:11:59,205 - INFO - [480] Line read from FFmpeg stderr: frame=  745 fps= 67 q=28.0 size=N/A time=00:00:32.29 bitrate=N/A speed=2.89x
+2024-12-27 14:11:59,653 - INFO - [1080] Line read from FFmpeg stderr: frame=  264 fps= 23 q=28.0 size=N/A time=00:00:13.05 bitrate=N/A speed=1.13x
+2024-12-27 14:11:59,794 - INFO - [480] Line read from FFmpeg stderr: frame=  771 fps= 66 q=28.0 size=N/A time=00:00:33.34 bitrate=N/A speed=2.85x
+2024-12-27 14:11:59,916 - INFO - [480] Line read from FFmpeg stderr: frame=  794 fps= 65 q=28.0 size=N/A time=00:00:34.28 bitrate=N/A speed=2.81x
+2024-12-27 14:11:59,916 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p3.ts' for writing
+2024-12-27 14:11:59,921 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:11:59,946 - INFO - [720] Line read from FFmpeg stderr: frame=  656 fps= 55 q=28.0 size=N/A time=00:00:28.77 bitrate=N/A speed=2.42x
+2024-12-27 14:12:00,166 - INFO - [1080] Line read from FFmpeg stderr: frame=  280 fps= 23 q=28.0 size=N/A time=00:00:13.69 bitrate=N/A speed=1.13x
+2024-12-27 14:12:00,454 - INFO - [720] Line read from FFmpeg stderr: frame=  681 fps= 55 q=28.0 size=N/A time=00:00:29.73 bitrate=N/A speed=2.39x
+2024-12-27 14:12:00,681 - INFO - [1080] Line read from FFmpeg stderr: frame=  294 fps= 23 q=28.0 size=N/A time=00:00:14.27 bitrate=N/A speed=1.13x
+2024-12-27 14:12:00,726 - INFO - [480] Line read from FFmpeg stderr: frame=  827 fps= 65 q=28.0 size=N/A time=00:00:35.60 bitrate=N/A speed= 2.8x
+2024-12-27 14:12:00,957 - INFO - [720] Line read from FFmpeg stderr: frame=  700 fps= 54 q=28.0 size=N/A time=00:00:30.50 bitrate=N/A speed=2.36x
+2024-12-27 14:12:01,186 - INFO - [1080] Line read from FFmpeg stderr: frame=  312 fps= 24 q=28.0 size=N/A time=00:00:14.97 bitrate=N/A speed=1.14x
+2024-12-27 14:12:01,222 - INFO - [480] Line read from FFmpeg stderr: frame=  866 fps= 66 q=28.0 size=N/A time=00:00:37.14 bitrate=N/A speed=2.81x
+2024-12-27 14:12:01,453 - INFO - [720] Line read from FFmpeg stderr: frame=  716 fps= 53 q=28.0 size=N/A time=00:00:31.16 bitrate=N/A speed=2.32x
+2024-12-27 14:12:01,687 - INFO - [1080] Line read from FFmpeg stderr: frame=  321 fps= 23 q=28.0 size=N/A time=00:00:15.33 bitrate=N/A speed=1.12x
+2024-12-27 14:12:01,731 - INFO - [480] Line read from FFmpeg stderr: frame=  909 fps= 66 q=28.0 size=N/A time=00:00:38.86 bitrate=N/A speed=2.84x
+2024-12-27 14:12:02,047 - INFO - [720] Line read from FFmpeg stderr: frame=  738 fps= 53 q=28.0 size=N/A time=00:00:32.02 bitrate=N/A speed= 2.3x
+2024-12-27 14:12:02,227 - INFO - [480] Line read from FFmpeg stderr: frame=  942 fps= 66 q=28.0 size=N/A time=00:00:40.19 bitrate=N/A speed=2.83x
+2024-12-27 14:12:02,315 - INFO - [1080] Line read from FFmpeg stderr: frame=  339 fps= 24 q=28.0 size=N/A time=00:00:16.06 bitrate=N/A speed=1.13x
+2024-12-27 14:12:02,576 - INFO - [720] Line read from FFmpeg stderr: frame=  756 fps= 52 q=28.0 size=N/A time=00:00:32.74 bitrate=N/A speed=2.25x
+2024-12-27 14:12:02,728 - INFO - [480] Line read from FFmpeg stderr: frame=  982 fps= 67 q=28.0 size=N/A time=00:00:41.81 bitrate=N/A speed=2.84x
+2024-12-27 14:12:02,825 - INFO - [1080] Line read from FFmpeg stderr: frame=  354 fps= 24 q=28.0 size=N/A time=00:00:16.66 bitrate=N/A speed=1.13x
+2024-12-27 14:12:03,055 - INFO - [720] Line read from FFmpeg stderr: frame=  776 fps= 52 q=28.0 size=N/A time=00:00:33.55 bitrate=N/A speed=2.23x
+2024-12-27 14:12:03,202 - INFO - [480] Line read from FFmpeg stderr: frame= 1020 fps= 67 q=28.0 size=N/A time=00:00:43.30 bitrate=N/A speed=2.85x
+2024-12-27 14:12:03,203 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p4.ts' for writing
+2024-12-27 14:12:03,203 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:12:03,397 - INFO - [720] Line read from FFmpeg stderr: frame=  790 fps= 51 q=28.0 size=N/A time=00:00:34.11 bitrate=N/A speed=2.19x
+2024-12-27 14:12:03,398 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p3.ts' for writing
+2024-12-27 14:12:03,401 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:12:03,496 - INFO - [1080] Line read from FFmpeg stderr: frame=  374 fps= 24 q=28.0 size=N/A time=00:00:17.47 bitrate=N/A speed=1.14x
+2024-12-27 14:12:03,736 - INFO - [480] Line read from FFmpeg stderr: frame= 1055 fps= 67 q=28.0 size=N/A time=00:00:44.69 bitrate=N/A speed=2.84x
+2024-12-27 14:12:03,778 - INFO - [1080] Line read from FFmpeg stderr: frame=  390 fps= 24 q=28.0 size=N/A time=00:00:18.11 bitrate=N/A speed=1.13x
+2024-12-27 14:12:03,778 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p1.ts' for writing
+2024-12-27 14:12:03,778 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:12:04,079 - INFO - [720] Line read from FFmpeg stderr: frame=  817 fps= 51 q=28.0 size=N/A time=00:00:35.17 bitrate=N/A speed=2.19x
+2024-12-27 14:12:04,252 - INFO - [480] Line read from FFmpeg stderr: frame= 1091 fps= 67 q=28.0 size=N/A time=00:00:46.14 bitrate=N/A speed=2.85x
+2024-12-27 14:12:04,503 - INFO - [1080] Line read from FFmpeg stderr: frame=  412 fps= 25 q=28.0 size=N/A time=00:00:18.98 bitrate=N/A speed=1.15x
+2024-12-27 14:12:04,588 - INFO - [720] Line read from FFmpeg stderr: frame=  840 fps= 51 q=28.0 size=N/A time=00:00:36.09 bitrate=N/A speed=2.18x
+2024-12-27 14:12:04,748 - INFO - [480] Line read from FFmpeg stderr: frame= 1129 fps= 67 q=28.0 size=N/A time=00:00:47.65 bitrate=N/A speed=2.85x
+2024-12-27 14:12:05,020 - INFO - [1080] Line read from FFmpeg stderr: frame=  430 fps= 25 q=28.0 size=N/A time=00:00:19.71 bitrate=N/A speed=1.16x
+2024-12-27 14:12:05,148 - INFO - [720] Line read from FFmpeg stderr: frame=  865 fps= 51 q=28.0 size=N/A time=00:00:37.09 bitrate=N/A speed=2.17x
+2024-12-27 14:12:05,250 - INFO - [480] Line read from FFmpeg stderr: frame= 1169 fps= 68 q=28.0 size=N/A time=00:00:49.25 bitrate=N/A speed=2.86x
+2024-12-27 14:12:05,560 - INFO - [1080] Line read from FFmpeg stderr: frame=  444 fps= 25 q=28.0 size=N/A time=00:00:20.26 bitrate=N/A speed=1.16x
+2024-12-27 14:12:05,658 - INFO - [720] Line read from FFmpeg stderr: frame=  895 fps= 51 q=28.0 size=N/A time=00:00:38.31 bitrate=N/A speed=2.17x
+2024-12-27 14:12:05,751 - INFO - [480] Line read from FFmpeg stderr: frame= 1210 fps= 68 q=28.0 size=N/A time=00:00:50.90 bitrate=N/A speed=2.87x
+2024-12-27 14:12:06,068 - INFO - [1080] Line read from FFmpeg stderr: frame=  459 fps= 25 q=28.0 size=N/A time=00:00:20.86 bitrate=N/A speed=1.16x
+2024-12-27 14:12:06,157 - INFO - [720] Line read from FFmpeg stderr: frame=  937 fps= 52 q=28.0 size=N/A time=00:00:40.00 bitrate=N/A speed=2.21x
+2024-12-27 14:12:06,256 - INFO - [480] Line read from FFmpeg stderr: frame= 1254 fps= 69 q=28.0 size=N/A time=00:00:52.67 bitrate=N/A speed=2.89x
+2024-12-27 14:12:06,284 - INFO - [480] Line read from FFmpeg stderr: frame= 1300 fps= 69 q=28.0 size=N/A time=00:00:54.50 bitrate=N/A speed=2.91x
+2024-12-27 14:12:06,290 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p5.ts' for writing
+2024-12-27 14:12:06,290 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:12:06,615 - INFO - [1080] Line read from FFmpeg stderr: frame=  470 fps= 25 q=28.0 size=N/A time=00:00:21.31 bitrate=N/A speed=1.15x
+2024-12-27 14:12:06,662 - INFO - [720] Line read from FFmpeg stderr: frame=  977 fps= 52 q=28.0 size=N/A time=00:00:41.57 bitrate=N/A speed=2.23x
+2024-12-27 14:12:07,158 - INFO - [720] Line read from FFmpeg stderr: frame= 1006 fps= 53 q=28.0 size=N/A time=00:00:42.75 bitrate=N/A speed=2.23x
+2024-12-27 14:12:07,221 - INFO - [1080] Line read from FFmpeg stderr: frame=  485 fps= 25 q=28.0 size=N/A time=00:00:21.90 bitrate=N/A speed=1.15x
+2024-12-27 14:12:07,246 - INFO - [720] Line read from FFmpeg stderr: frame= 1045 fps= 53 q=28.0 size=N/A time=00:00:44.30 bitrate=N/A speed=2.26x
+2024-12-27 14:12:07,249 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p4.ts' for writing
+2024-12-27 14:12:07,249 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:12:07,268 - INFO - [480] Line read from FFmpeg stderr: frame= 1330 fps= 69 q=28.0 size=N/A time=00:00:55.70 bitrate=N/A speed=2.89x
+2024-12-27 14:12:07,726 - INFO - [1080] Line read from FFmpeg stderr: frame=  496 fps= 25 q=28.0 size=N/A time=00:00:22.33 bitrate=N/A speed=1.13x
+2024-12-27 14:12:07,768 - INFO - [480] Line read from FFmpeg stderr: frame= 1367 fps= 69 q=28.0 size=N/A time=00:00:57.19 bitrate=N/A speed= 2.9x
+2024-12-27 14:12:07,822 - INFO - [480] Line read from FFmpeg stderr: frame= 1401 fps= 69 q=28.0 size=N/A time=00:00:58.53 bitrate=N/A speed=2.89x
+2024-12-27 14:12:07,822 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p6.ts' for writing
+2024-12-27 14:12:07,822 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:12:08,177 - INFO - [720] Line read from FFmpeg stderr: frame= 1079 fps= 54 q=28.0 size=N/A time=00:00:45.67 bitrate=N/A speed=2.27x
+2024-12-27 14:12:08,234 - INFO - [1080] Line read from FFmpeg stderr: frame=  514 fps= 25 q=28.0 size=N/A time=00:00:23.06 bitrate=N/A speed=1.14x
+2024-12-27 14:12:08,682 - INFO - [720] Line read from FFmpeg stderr: frame= 1121 fps= 54 q=28.0 size=N/A time=00:00:47.36 bitrate=N/A speed=2.29x
+2024-12-27 14:12:08,750 - INFO - [1080] Line read from FFmpeg stderr: frame=  523 fps= 25 q=28.0 size=N/A time=00:00:23.42 bitrate=N/A speed=1.13x
+2024-12-27 14:12:08,781 - INFO - [480] Line read from FFmpeg stderr: frame= 1446 fps= 70 q=28.0 size=N/A time=00:01:00.35 bitrate=N/A speed=2.91x
+2024-12-27 14:12:09,189 - INFO - [720] Line read from FFmpeg stderr: frame= 1162 fps= 55 q=28.0 size=N/A time=00:00:48.98 bitrate=N/A speed=2.31x
+2024-12-27 14:12:09,260 - INFO - [1080] Line read from FFmpeg stderr: frame=  535 fps= 25 q=28.0 size=N/A time=00:00:23.89 bitrate=N/A speed=1.13x
+2024-12-27 14:12:09,413 - INFO - [480] Line read from FFmpeg stderr: frame= 1487 fps= 70 q=28.0 size=N/A time=00:01:01.97 bitrate=N/A speed=2.91x
+2024-12-27 14:12:09,413 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p7.ts' for writing
+2024-12-27 14:12:09,414 - INFO - [480] Line read from FFmpeg stderr: [hls @ 0x596011d5a9c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/480p.m3u8.tmp' for writing
+2024-12-27 14:12:09,414 - INFO - [480] Line read from FFmpeg stderr: [out#0/hls @ 0x596011d26f80] video:4159kB audio:2602kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+2024-12-27 14:12:09,414 - INFO - [480] Line read from FFmpeg stderr: frame= 1557 fps= 71 q=-1.0 Lsize=N/A time=00:01:02.29 bitrate=N/A speed=2.84x
+2024-12-27 14:12:09,437 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] frame I:13    Avg QP:16.26  size: 56911
+2024-12-27 14:12:09,437 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] frame P:570   Avg QP:20.46  size:  4292
+2024-12-27 14:12:09,437 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] frame B:974   Avg QP:25.20  size:  1101
+2024-12-27 14:12:09,437 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] consecutive B-frames: 13.0%  8.1%  8.3% 70.6%
+2024-12-27 14:12:09,438 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] mb I  I16..4:  7.4% 65.2% 27.3%
+2024-12-27 14:12:09,438 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] mb P  I16..4:  0.7%  3.2%  0.5%  P16..4: 20.8%  8.8%  5.3%  0.0%  0.0%    skip:60.6%
+2024-12-27 14:12:09,439 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] mb B  I16..4:  0.1%  0.4%  0.1%  B16..8: 18.5%  2.2%  0.4%  direct: 0.7%  skip:77.5%  L0:42.2% L1:51.9% BI: 5.9%
+2024-12-27 14:12:09,439 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] 8x8 transform intra:70.1% inter:73.7%
+2024-12-27 14:12:09,440 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] coded y,uvDC,uvAC intra: 68.4% 83.2% 49.2% inter: 6.4% 8.1% 0.7%
+2024-12-27 14:12:09,440 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] i16 v,h,dc,p: 10% 24%  4% 63%
+2024-12-27 14:12:09,440 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 17% 20% 11%  7%  9%  9%  9%  9%  9%
+2024-12-27 14:12:09,440 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 21% 10%  7% 10%  9%  9%  8%  7%
+2024-12-27 14:12:09,440 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] i8c dc,h,v,p: 44% 23% 19% 14%
+2024-12-27 14:12:09,441 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] Weighted P-Frames: Y:0.0% UV:0.0%
+2024-12-27 14:12:09,441 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] ref P L0: 71.9% 13.1% 11.4%  3.6%
+2024-12-27 14:12:09,441 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] ref B L0: 92.4%  6.0%  1.6%
+2024-12-27 14:12:09,441 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] ref B L1: 97.4%  2.6%
+2024-12-27 14:12:09,441 - INFO - [480] Line read from FFmpeg stderr: [libx264 @ 0x596011e5ef00] kb/s:547.00
+2024-12-27 14:12:09,461 - INFO - [480] Line read from FFmpeg stderr: [aac @ 0x5960125d6340] Qavg: 639.962
+2024-12-27 14:12:09,688 - INFO - [720] Line read from FFmpeg stderr: frame= 1204 fps= 56 q=28.0 size=N/A time=00:00:50.68 bitrate=N/A speed=2.34x
+2024-12-27 14:12:09,787 - INFO - [1080] Line read from FFmpeg stderr: frame=  557 fps= 26 q=28.0 size=N/A time=00:00:24.81 bitrate=N/A speed=1.14x
+2024-12-27 14:12:10,064 - INFO - [720] Line read from FFmpeg stderr: frame= 1248 fps= 56 q=28.0 size=N/A time=00:00:52.41 bitrate=N/A speed=2.36x
+2024-12-27 14:12:10,064 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p5.ts' for writing
+2024-12-27 14:12:10,064 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:12:10,327 - INFO - [1080] Line read from FFmpeg stderr: frame=  578 fps= 26 q=28.0 size=N/A time=00:00:25.62 bitrate=N/A speed=1.15x
+2024-12-27 14:12:10,696 - INFO - [720] Line read from FFmpeg stderr: frame= 1317 fps= 58 q=28.0 size=N/A time=00:00:55.21 bitrate=N/A speed=2.43x
+2024-12-27 14:12:10,880 - INFO - [1080] Line read from FFmpeg stderr: frame=  609 fps= 27 q=28.0 size=N/A time=00:00:26.85 bitrate=N/A speed=1.18x
+2024-12-27 14:12:11,148 - INFO - [720] Line read from FFmpeg stderr: frame= 1351 fps= 58 q=28.0 size=N/A time=00:00:56.55 bitrate=N/A speed=2.44x
+2024-12-27 14:12:11,148 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p6.ts' for writing
+2024-12-27 14:12:11,151 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:12:11,382 - INFO - [1080] Line read from FFmpeg stderr: frame=  629 fps= 27 q=28.0 size=N/A time=00:00:27.66 bitrate=N/A speed=1.18x
+2024-12-27 14:12:11,477 - INFO - [1080] Line read from FFmpeg stderr: frame=  641 fps= 27 q=28.0 size=N/A time=00:00:28.13 bitrate=N/A speed=1.18x
+2024-12-27 14:12:11,477 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p2.ts' for writing
+2024-12-27 14:12:11,485 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:12:11,714 - INFO - [720] Line read from FFmpeg stderr: frame= 1414 fps= 60 q=28.0 size=N/A time=00:00:59.07 bitrate=N/A speed=2.49x
+2024-12-27 14:12:12,304 - INFO - [720] Line read from FFmpeg stderr: frame= 1454 fps= 60 q=28.0 size=N/A time=00:01:00.71 bitrate=N/A speed=2.51x
+2024-12-27 14:12:12,483 - INFO - [1080] Line read from FFmpeg stderr: frame=  658 fps= 27 q=28.0 size=N/A time=00:00:28.86 bitrate=N/A speed=1.18x
+2024-12-27 14:12:12,898 - INFO - [720] Line read from FFmpeg stderr: frame= 1500 fps= 61 q=28.0 size=N/A time=00:01:02.25 bitrate=N/A speed=2.52x
+2024-12-27 14:12:12,898 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p7.ts' for writing
+2024-12-27 14:12:12,900 - INFO - [720] Line read from FFmpeg stderr: [hls @ 0x5ca45eef59c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/720p.m3u8.tmp' for writing
+2024-12-27 14:12:12,901 - INFO - [720] Line read from FFmpeg stderr: [out#0/hls @ 0x5ca45eec1f80] video:7619kB audio:2602kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+2024-12-27 14:12:12,901 - INFO - [720] Line read from FFmpeg stderr: frame= 1557 fps= 61 q=-1.0 Lsize=N/A time=00:01:02.29 bitrate=N/A speed=2.45x
+2024-12-27 14:12:12,903 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] frame I:13    Avg QP:15.57  size: 86394
+2024-12-27 14:12:12,903 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] frame P:885   Avg QP:20.43  size:  6145
+2024-12-27 14:12:12,903 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] frame B:659   Avg QP:24.26  size:  1882
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] consecutive B-frames: 39.5%  9.9%  6.9% 43.7%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] mb I  I16..4: 20.4% 38.0% 41.6%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] mb P  I16..4:  1.4%  2.3%  0.2%  P16..4: 24.8%  5.4%  2.2%  0.0%  0.0%    skip:63.7%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] mb B  I16..4:  0.1%  0.4%  0.1%  B16..8: 21.7%  1.2%  0.2%  direct: 0.6%  skip:75.8%  L0:49.8% L1:47.5% BI: 2.7%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] 8x8 transform intra:53.9% inter:69.0%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] coded y,uvDC,uvAC intra: 49.2% 71.8% 25.0% inter: 5.4% 9.1% 0.3%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] i16 v,h,dc,p: 25% 32% 13% 30%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 21% 23%  5%  5%  6%  6%  6%  6%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 18% 12%  8%  8%  9%  8%  9%  8%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] i8c dc,h,v,p: 46% 23% 21% 10%
+2024-12-27 14:12:12,904 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] Weighted P-Frames: Y:0.1% UV:0.0%
+2024-12-27 14:12:12,905 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] ref P L0: 79.9%  9.1%  8.9%  2.2%  0.0%
+2024-12-27 14:12:12,905 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] ref B L0: 94.0%  5.3%  0.7%
+2024-12-27 14:12:12,905 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] ref B L1: 97.8%  2.2%
+2024-12-27 14:12:12,905 - INFO - [720] Line read from FFmpeg stderr: [libx264 @ 0x5ca45eff9f00] kb/s:1002.13
+2024-12-27 14:12:12,917 - INFO - [720] Line read from FFmpeg stderr: [aac @ 0x5ca45f771340] Qavg: 639.962
+2024-12-27 14:12:12,997 - INFO - [1080] Line read from FFmpeg stderr: frame=  671 fps= 27 q=28.0 size=N/A time=00:00:29.35 bitrate=N/A speed=1.18x
+2024-12-27 14:12:13,518 - INFO - [1080] Line read from FFmpeg stderr: frame=  682 fps= 27 q=28.0 size=N/A time=00:00:29.78 bitrate=N/A speed=1.17x
+2024-12-27 14:12:14,035 - INFO - [1080] Line read from FFmpeg stderr: frame=  710 fps= 27 q=28.0 size=N/A time=00:00:30.91 bitrate=N/A speed=1.19x
+2024-12-27 14:12:14,558 - INFO - [1080] Line read from FFmpeg stderr: frame=  733 fps= 28 q=28.0 size=N/A time=00:00:31.82 bitrate=N/A speed= 1.2x
+2024-12-27 14:12:15,152 - INFO - [1080] Line read from FFmpeg stderr: frame=  753 fps= 28 q=28.0 size=N/A time=00:00:32.61 bitrate=N/A speed=1.21x
+2024-12-27 14:12:15,671 - INFO - [1080] Line read from FFmpeg stderr: frame=  777 fps= 28 q=28.0 size=N/A time=00:00:33.57 bitrate=N/A speed=1.21x
+2024-12-27 14:12:15,739 - INFO - [1080] Line read from FFmpeg stderr: frame=  800 fps= 28 q=28.0 size=N/A time=00:00:34.49 bitrate=N/A speed=1.23x
+2024-12-27 14:12:15,739 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p3.ts' for writing
+2024-12-27 14:12:15,748 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:12:16,675 - INFO - [1080] Line read from FFmpeg stderr: frame=  827 fps= 29 q=28.0 size=N/A time=00:00:35.60 bitrate=N/A speed=1.24x
+2024-12-27 14:12:17,247 - INFO - [1080] Line read from FFmpeg stderr: frame=  856 fps= 29 q=28.0 size=N/A time=00:00:36.73 bitrate=N/A speed=1.26x
+2024-12-27 14:12:17,750 - INFO - [1080] Line read from FFmpeg stderr: frame=  890 fps= 30 q=28.0 size=N/A time=00:00:38.10 bitrate=N/A speed=1.28x
+2024-12-27 14:12:18,258 - INFO - [1080] Line read from FFmpeg stderr: frame=  944 fps= 31 q=28.0 size=N/A time=00:00:40.25 bitrate=N/A speed=1.33x
+2024-12-27 14:12:18,753 - INFO - [1080] Line read from FFmpeg stderr: frame=  991 fps= 32 q=28.0 size=N/A time=00:00:42.15 bitrate=N/A speed=1.37x
+2024-12-27 14:12:18,855 - INFO - [1080] Line read from FFmpeg stderr: frame= 1041 fps= 33 q=25.0 size=N/A time=00:00:44.16 bitrate=N/A speed=1.41x
+2024-12-27 14:12:18,857 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p4.ts' for writing
+2024-12-27 14:12:18,860 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:12:19,760 - INFO - [1080] Line read from FFmpeg stderr: frame= 1090 fps= 34 q=28.0 size=N/A time=00:00:46.10 bitrate=N/A speed=1.45x
+2024-12-27 14:12:20,266 - INFO - [1080] Line read from FFmpeg stderr: frame= 1148 fps= 36 q=28.0 size=N/A time=00:00:48.42 bitrate=N/A speed= 1.5x
+2024-12-27 14:12:20,774 - INFO - [1080] Line read from FFmpeg stderr: frame= 1203 fps= 37 q=28.0 size=N/A time=00:00:50.62 bitrate=N/A speed=1.55x
+2024-12-27 14:12:21,185 - INFO - [1080] Line read from FFmpeg stderr: frame= 1255 fps= 38 q=28.0 size=N/A time=00:00:52.71 bitrate=N/A speed=1.58x
+2024-12-27 14:12:21,187 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p5.ts' for writing
+2024-12-27 14:12:21,187 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:12:21,808 - INFO - [1080] Line read from FFmpeg stderr: frame= 1310 fps= 39 q=28.0 size=N/A time=00:00:54.93 bitrate=N/A speed=1.63x
+2024-12-27 14:12:22,314 - INFO - [1080] Line read from FFmpeg stderr: frame= 1352 fps= 39 q=28.0 size=N/A time=00:00:56.57 bitrate=N/A speed=1.65x
+2024-12-27 14:12:22,521 - INFO - [1080] Line read from FFmpeg stderr: frame= 1393 fps= 40 q=28.0 size=N/A time=00:00:58.24 bitrate=N/A speed=1.67x
+2024-12-27 14:12:22,522 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p6.ts' for writing
+2024-12-27 14:12:22,522 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:12:23,322 - INFO - [1080] Line read from FFmpeg stderr: frame= 1430 fps= 41 q=28.0 size=N/A time=00:00:59.71 bitrate=N/A speed=1.69x
+2024-12-27 14:12:24,138 - INFO - [1080] Line read from FFmpeg stderr: frame= 1470 fps= 41 q=28.0 size=N/A time=00:01:01.31 bitrate=N/A speed=1.71x
+2024-12-27 14:12:24,138 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p7.ts' for writing
+2024-12-27 14:12:24,140 - INFO - [1080] Line read from FFmpeg stderr: [hls @ 0x5d1f0f1749c0] Opening 'output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/1080p.m3u8.tmp' for writing
+2024-12-27 14:12:24,140 - INFO - [1080] Line read from FFmpeg stderr: [out#0/hls @ 0x5d1f0f140f80] video:15312kB audio:2602kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+2024-12-27 14:12:24,140 - INFO - [1080] Line read from FFmpeg stderr: frame= 1557 fps= 43 q=-1.0 Lsize=N/A time=00:01:02.29 bitrate=N/A speed= 1.7x
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] frame I:13    Avg QP:15.31  size:150163
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] frame P:454   Avg QP:19.37  size: 19103
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] frame B:1090  Avg QP:23.92  size:  4637
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] consecutive B-frames:  4.5%  4.0%  7.5% 84.0%
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] mb I  I16..4: 19.4% 64.5% 16.1%
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] mb P  I16..4:  2.9%  6.3%  0.3%  P16..4: 23.1%  8.5%  3.7%  0.0%  0.0%    skip:55.2%
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] mb B  I16..4:  0.3%  0.7%  0.0%  B16..8: 19.6%  1.7%  0.2%  direct: 0.8%  skip:76.6%  L0:44.3% L1:53.2% BI: 2.5%
+2024-12-27 14:12:24,143 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] 8x8 transform intra:65.8% inter:81.0%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] coded y,uvDC,uvAC intra: 46.0% 67.4% 22.5% inter: 5.1% 9.2% 0.3%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] i16 v,h,dc,p: 19% 27%  6% 48%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 20% 16%  5%  7%  7%  7%  7%  6%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 22% 10%  5%  8%  8%  7%  6%  4%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] i8c dc,h,v,p: 49% 22% 20% 10%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] Weighted P-Frames: Y:0.0% UV:0.0%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] ref P L0: 71.9%  9.6% 15.1%  3.4%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] ref B L0: 93.3%  5.7%  1.0%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] ref B L1: 97.9%  2.1%
+2024-12-27 14:12:24,144 - INFO - [1080] Line read from FFmpeg stderr: [libx264 @ 0x5d1f0f278f00] kb/s:2013.99
+2024-12-27 14:12:24,151 - INFO - [1080] Line read from FFmpeg stderr: [aac @ 0x5d1f0f9f0340] Qavg: 639.962
+2024-12-27 14:12:24,162 - INFO - Final health metrics saved: {'status': 'completed', '720': {'Codec': 'h264', 'Pixel_format': 'yuv420p', 'Height': '720', 'FPS': '25', 'Bitrate': '1002.13 kb/s'}, '1080': {'Codec': 'h264', 'Pixel_format': 'yuv420p', 'Height': '1080', 'FPS': '25', 'Bitrate': '2013.99 kb/s'}, '480': {'Codec': 'h264', 'Pixel_format': 'yuv420p', 'Height': '480', 'FPS': '25', 'Bitrate': '547.00 kb/s'}}
+2024-12-27 14:12:24,162 - INFO - Stream processing completed. Output directory: output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464
+2024-12-27 14:12:24,162 - INFO - Master playlist generated: output/7d6ac14f-3b8e-49a5-adff-9aa0ea725464/master.m3u8
+2024-12-27 14:13:08,489 - INFO - Stream stopped. Final metrics: {'status': 'completed', '720': {'Codec': 'h264', 'Pixel_format': 'yuv420p', 'Height': '720', 'FPS': '25', 'Bitrate': '1002.13 kb/s'}, '1080': {'Codec': 'h264', 'Pixel_format': 'yuv420p', 'Height': '1080', 'FPS': '25', 'Bitrate': '2013.99 kb/s'}, '480': {'Codec': 'h264', 'Pixel_format': 'yuv420p', 'Height': '480', 'FPS': '25', 'Bitrate': '547.00 kb/s'}}
