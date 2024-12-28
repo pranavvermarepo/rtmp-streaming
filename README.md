@@ -157,7 +157,7 @@ curl -X 'GET' 'http://127.0.0.1:8001/metrics/a32375e7-2bcf-4ee7-8e23-7c8a898bcfa
 
 
 ## For sanity check we can generate video file from output.m3u8 transcoded playlist files
-ffmpeg -i /PATH/video_processor/tests/test_output/{stream_id}/480p.m3u8  -c:v copy -c:a aac -strict experimental /PATH/video_processor/tests/output_video61.mp4
+ffmpeg -i /PATH/tests/test_output/{stream_id}/480p.m3u8  -c:v copy -c:a aac -strict experimental /PATH/tests/output_video61.mp4
 
 ## Below is optional and documented for knowledge purpose only. This simply demonstrate how we generated an rtmp stream,
 however, for this POC purpose we have shared an alreday generated rtmp stream OR you can yourself created one too
